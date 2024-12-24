@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #B2AC88;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Button styling */
+.btn, .btn-search {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #D68A59;
+    color: white;
+    text-decoration: none;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.btn:hover, .btn-search:hover {
+    background-color: #CB6E4A;
+}
+
+/* Search form styling */
+.search-form {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.search-form input[type="text"] {
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search-form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #D68A59;
+    color: white;
+    cursor: pointer;
+}
+
+.search-form button:hover {
+    background-color: #CB6E4A;
+}
+
+/* Table styling */
+.table-container {
+    overflow-x: auto;
+}
+
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #DDDDDD;
+    text-align: center;
+}
+
+th {
+    background-color: #333;
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+/* Button edit and delete styling */
+.btn-edit, .btn-delete {
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.btn-edit {
+    background-color: #ffa500;
+    color: white;
+}
+
+.btn-edit:hover {
+    background-color: #ff8c00;
+}
+
+.btn-delete {
+    background-color: #f44336;
+    color: white;
+}
+
+.btn-delete:hover {
+    background-color: #e57373;
+}
+
